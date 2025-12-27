@@ -1,0 +1,17 @@
+server.name: opensearch-dashboards
+server.host: "0.0.0.0"
+
+# Point to your OpenSearch node (use service name from docker-compose)
+opensearch.hosts: ["https://opensearch-node:9200"]
+
+# Authentication
+opensearch.username: "admin"
+opensearch.password: "Efs@ne_Guvenlk12_"
+
+# SSL Settings for self-signed certs
+opensearch.ssl.verificationMode: none
+
+# If you want to use the CA instead of 'none':
+# opensearch.ssl.certificateAuthorities: [ "/usr/share/opensearch-dashboards/config/root-ca.pem" ]
+# opensearch.ssl.verificationMode: full
+

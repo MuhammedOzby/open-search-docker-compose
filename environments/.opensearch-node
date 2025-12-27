@@ -1,0 +1,9 @@
+cluster.name=opensearch-cluster
+node.name=opensearch-node
+discovery.type=single-node
+bootstrap.memory_lock=true
+OPENSEARCH_JAVA_OPTS="-Xms512m -Xmx512m"
+DISABLE_INSTALL_DEMO_CONFIG=false
+OPENSEARCH_INITIAL_ADMIN_PASSWORD="Efs@ne_Guvenlk12_"
+plugins.query.datasources.encryption.masterkey="3ZcdUiqCUcwJ4rI23aWASWtSsmHWr9HR"
+OPENSEARCH_SSL_VERIFICATION_MODE=none
